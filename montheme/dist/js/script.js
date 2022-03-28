@@ -21,3 +21,8 @@ window.addEventListener('DOMContentLoaded', function () {
         observer.observe(r)
     })
 })
+
+
+jQuery(window).scroll(function(){
+    jQuery('nav').toggleClass('scrolled ', jQuery(this).scrollTop() > 850);
+});

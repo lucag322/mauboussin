@@ -3,7 +3,7 @@
 
 
   <div class="banner"  >
-      <img style="width: 800px; height: 500px;margin-top: 10%" src="http://localhost/Wordpress/mauboussin/wordpress/wp-content/uploads/2022/03/logomau.png"/>
+      <img style="margin-top: 10%" src="https://host-6/wp-content/uploads/2022/03/logo_auto_x2-removebg-preview-1.png"/>
       <div class="container_fleche">
           <div class="chevron"></div>
           <div class="chevron"></div>
@@ -21,7 +21,7 @@
 
         <div class="row reveal">
             <div class="col-md-6 how-img reveal-1">
-                <img src="https://image.ibb.co/ctSLu9/Work_Section2_freelance_img3.png" class="rounded-circle img-fluid" alt=""/>
+                <img src="https://host-6/wp-content/uploads/2022/03/kisspng-car-chevrolet-cruze-honda-sport-utility-vehicle-co-auto-automobile-car-pictogram-service-traffic-5ab054e7ca5cf8.525550001521505511829.png" class=" img-fluid" alt=""/>
             </div>
             <div class="col-md-6 ">
                 <h4 CLASS="reveal-2">Work efficiently, effectively.</h4>
@@ -41,9 +41,58 @@
                     Multiple payment options. Choose a payment method that works best for you, from direct deposit or PayPal to wire transfer and more.</p>
             </div>
             <div class="col-md-6 how-img reveal-4">
-                <img src="https://image.ibb.co/gQ9iE9/Work_Section2_freelance_img4.png" class="rounded-circle img-fluid" alt=""/>
+                <img src="https://host-6/wp-content/uploads/2022/03/autochapeau.png" class=" img-fluid" alt=""/>
             </div>
         </div>
+
+      <div class="row reveal">
+        <div class="col-md-4 ">
+          <h4 class="reveal-1">Les Horaires</h4>
+        </div>
+        <div class="col-md-8 how-img ">
+          <table style="width: 600px; border-collapse: collapse">
+            <tr>
+              <td></td>
+              <td class="reveal-2"><h4> Horraires de conduite </h4></td>
+              <td class="reveal-3"><h4> Horraires de bureau </h4></td>
+            </tr>
+            <tr class="reveal-4">
+              <td> lundi </td>
+              <td> 8h - 19h </td>
+              <td> 10h - 20h</td>
+            </tr>
+            <tr class="reveal-4">
+              <td> mardi </td>
+              <td> 8h - 19h </td>
+              <td> 10h - 20h</td>
+            </tr>
+            <tr class="reveal-4">
+              <td> mercredi </td>
+              <td> 8h - 19h </td>
+              <td> 10h - 20h</td>
+            </tr>
+            <tr class="reveal-4">
+              <td> jeudi </td>
+              <td> 8h - 19h </td>
+              <td> 10h - 20h</td>
+            </tr>
+            <tr class="reveal-4">
+              <td> vendredi </td>
+              <td> 8h - 19h </td>
+              <td> 10h - 20h</td>
+            </tr>
+            <tr class="reveal-4">
+              <td> samedi </td>
+              <td> 8h - 19h </td>
+              <td> 10h - 20h</td>
+            </tr>
+            <tr class="reveal-4">
+              <td> dimanche </td>
+              <td> 8h - 19h </td>
+              <td> 10h - 20h</td>
+            </tr>
+          </table>
+      </div>
 
     </div>
 </div>

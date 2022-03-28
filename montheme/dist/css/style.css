@@ -1,14 +1,26 @@
+#main{
+    height: 100%;
+    position: relative;
+}
+
+
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0; left: 0; right: 0;
+
+}
 .how-section1{
     margin-top:-15%;
     padding: 10% 0%;
 }
 .how-section1 h4{
-    color: #ffa500;
+    color: #f30106;
     font-weight: bold;
     font-size: 30px;
 }
 .how-section1 .subheading{
-    color: #3931af;
+    color: #000;
     font-size: 20px;
 }
 .how-section1 .row
@@ -24,16 +36,17 @@
 }
 .banner{
     height: 100vh;
-    background-image: linear-gradient(90deg, rgba(30,30,32,0.6979166666666667) 010%, rgba(30,30,32,0.7035189075630253) 98%), url("https://otto-occasions.com/wp-content/uploads/2021/03/IMG_3303-400x250.jpg");
+    background-image: linear-gradient(90deg, rgba(226,226,226,0.7) 010%, rgba(226,226,226,0.7) 98%), url("https://otto-occasions.com/wp-content/uploads/2021/03/IMG_3303-400x250.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
 }
 .container_fleche{
+    margin-top: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 25%;
+    height: 15%;
 }
 .chevron {
     position: absolute;
@@ -55,7 +68,7 @@
     top: 0;
     height: 100%;
     width: 50%;
-    background: #fff;
+    background: #1c1c1cb3;
 }
 .chevron:before {
     left: 0;
@@ -114,4 +127,44 @@
         transition-duration: 0s!important;
         transition-delay: 0s!important;
     }
+}
+.bgcolor{
+    background-color: #0c0c0c;
+    transition-duration: 1s;
+}
+.bgcolor.scrolled{
+
+    background-color: rgba(84,84,84,0.5)!important;
+    transition-duration: 1s;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: red!important;
+}
+.navbar-light .navbar-brand{
+    color: red!important;
+}
+.formule{
+    width: 100%;
+    border: 1px solid;
+   border-radius: 10px;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    color: black;
+    margin: 0 auto;
+
+}
+.tab{
+    margin-bottom: 5%;
+}
+.coco{
+
+
+}
+.coco:hover{
+    text-decoration: none;
+    color: black;
+}
+.center{
+    margin: 0 auto;
 }
