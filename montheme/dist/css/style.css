@@ -1,11 +1,7 @@
-#main{
-    height: 100%;
-    position: relative;
-}
+
 
 
 footer{
-    position: absolute;
     width: 100%;
     bottom: 0; left: 0; right: 0;
 
@@ -179,6 +175,17 @@ footer{
     width: 7rem;
     margin: 0.5rem;
 }
+
+.buton{
+    position: relative;
+    width: 200px;
+    margin: 0.5rem;
+    border: 1px solid red;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
 .radio-tile-group .input-container .radio-button {
     opacity: 0;
     position: absolute;
@@ -227,4 +234,45 @@ footer{
 .radio-tile-group .input-container .radio-button:checked + .radio-tile .radio-tile-label {
     color: white;
     background-color: red;
+}
+
+.card{
+    border: 1px solid red!important;
+    width: 18rem;
+    height: 25rem;
+}
+ .eleve{
+    padding: 10px;
+     color: black!important;
+     text-decoration: none;
+}
+
+input[type="button"].ninja-forms-field {
+    color: red!important;
+    background-color: transparent!important;
+    border: 1px solid red!important;
+}
+input[type="text"].ninja-forms-field{
+    background-color: transparent!important;
+    border: 1px solid red!important;
+}
+input[type="email"].ninja-forms-field{
+    background-color: transparent!important;
+    border: 1px solid red!important;
+}
+input[type="tel"].ninja-forms-field{
+    background-color: transparent!important;
+    border: 1px solid red!important;
+}
+textarea.ninja-forms-field{
+    background-color: transparent!important;
+    border: 1px solid red!important;
+}
+.contacte{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+#main{
+    height: 90vh!important;
 }

@@ -3,7 +3,7 @@
 
 
   <div class="banner"  >
-      <img style="margin-top: 10%" src="http://localhost/Wordpress/mauboussin/wordpress/wp-content/uploads/2022/03/logooooo.png"/>
+      <img style="margin-top: 10%" src="https://host-6/wp-content/uploads/2022/03/logo_auto_x2-removebg-preview-1.png"/>
       <div class="container_fleche">
           <div class="chevron"></div>
           <div class="chevron"></div>
@@ -21,7 +21,7 @@
 
         <div class="row reveal">
             <div class="col-md-6 how-img reveal-1">
-                <img src="http://localhost/Wordpress/mauboussin/wordpress/wp-content/uploads/2022/03/autochapeau.png" class=" img-fluid" alt=""/>
+                <img src="https://host-6/wp-content/uploads/2022/03/autochapeau.png" class=" img-fluid" alt=""/>
             </div>
             <div class="col-md-6 ">
                 <h4 CLASS="reveal-2">Work efficiently, effectively.</h4>
@@ -41,7 +41,7 @@
                     Multiple payment options. Choose a payment method that works best for you, from direct deposit or PayPal to wire transfer and more.</p>
             </div>
             <div class="col-md-6 how-img reveal-4">
-                <img src="http://localhost/Wordpress/mauboussin/wordpress/wp-content/uploads/2022/03/kisspng-car-chevrolet-cruze-honda-sport-utility-vehicle-co-auto-automobile-car-pictogram-service-traffic-5ab054e7ca5cf8.525550001521505511829.png" class=" img-fluid" alt=""/>
+                <img src="https://host-6/wp-content/uploads/2022/03/kisspng-car-chevrolet-cruze-honda-sport-utility-vehicle-co-auto-automobile-car-pictogram-service-traffic-5ab054e7ca5cf8.525550001521505511829.png" class=" img-fluid" alt=""/>
             </div>
         </div>
 
