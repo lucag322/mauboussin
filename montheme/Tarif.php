@@ -14,7 +14,7 @@
                   <input id="walk" class="radio-button" type="radio" name="radio" data-bs-toggle="collapse" data-bs-target="#collapse1"  role="button" aria-expanded="true" aria-controls="collapse1" checked/>
                   <div class="radio-tile">
                       <div class="icon walk-icon">
-                          <img   src="https://host-6/wp-content/uploads/2022/03/autochapeau.png">
+                          <img   src="https://bigstoss.000webhostapp.com/wp-content/uploads/2022/03/autochapeau.png">
                       </div>
                       <label for="walk" class="radio-tile-label">Code</label>
                   </div>
@@ -24,7 +24,7 @@
                   <input id="bike" class="radio-button" type="radio" name="radio" data-bs-toggle="collapse" data-bs-target="#collapse2"  role="button" aria-expanded="false" aria-controls="collapse2"/>
                   <div class="radio-tile">
                       <div class="icon bike-icon">
-                          <img src="https://host-6/wp-content/uploads/2022/03/kisspng-car-chevrolet-cruze-honda-sport-utility-vehicle-co-auto-automobile-car-pictogram-service-traffic-5ab054e7ca5cf8.525550001521505511829.png">
+                          <img src="https://bigstoss.000webhostapp.com/wp-content/uploads/2022/03/kisspng-car-chevrolet-cruze-honda-sport-utility-vehicle-co-auto-automobile-car-pictogram-service-traffic-5ab054e7ca5cf8.525550001521505511829.png">
                       </div>
                       <label for="bike" class="radio-tile-label">Permis B</label>
                   </div>
@@ -34,7 +34,7 @@
                   <input id="drive" class="radio-button" type="radio" name="radio"  data-bs-toggle="collapse" data-bs-target="#collapse3" role="button" aria-expanded="false" aria-controls="collapse3" />
                   <div class="radio-tile">
                       <div class="icon car-icon">
-                          <img src="https://host-6/wp-content/uploads/2022/03/accel.png">
+                          <img src="https://bigstoss.000webhostapp.com/wp-content/uploads/2022/03/accel.png">
                       </div>
                       <label for="drive" class="radio-tile-label">Acceleré</label>
                   </div>
