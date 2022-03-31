@@ -3,7 +3,7 @@
 
 
   <div class="banner"  >
-      <img style="margin-top: 10%" src="https://bigstoss.000webhostapp.com/wp-content/uploads/2022/03/logooooo.png"/>
+      <img class="logo" style=" width:100%; max-width: 756px" src="https://bigstoss.000webhostapp.com/wp-content/uploads/2022/03/logooooo.png"/>
       <div class="container_fleche">
           <div class="chevron"></div>
           <div class="chevron"></div>
@@ -20,7 +20,7 @@
     <div class="how-section1">
 
         <div class="row reveal">
-            <div class="col-md-6 how-img reveal-1">
+            <div class="col-md-6 how-img reveal-1 text-center">
                 <img src="https://bigstoss.000webhostapp.com/wp-content/uploads/2022/03/autochapeau.png" class=" img-fluid" alt=""/>
             </div>
             <div class="col-md-6 ">
@@ -46,21 +46,17 @@
         </div>
 
       <div class="row reveal">
-        <div class="col-md-4 ">
-          <h4 class="reveal-1">Les Horaires</h4>
+        <div class="col-md-6 text-center horaire">
+          <h4 class="reveal-1">Les Horaires : </h4>
         </div>
-        <div class="col-md-8 how-img ">
-          <table style="width: 600px; border-collapse: collapse">
+        <div class="col-md-6 how-img">
+          <table cellspacing="5px" style="width:100%; max-width: 600px; border-collapse: collapse;margin: 0 auto" >
             <tr>
               <td></td>
               <td class="reveal-2"><h4> Horraires de conduite </h4></td>
               <td class="reveal-3"><h4> Horraires de bureau </h4></td>
             </tr>
-            <tr class="reveal-4">
-              <td> lundi </td>
-              <td> 8h - 19h </td>
-              <td> 10h - 20h</td>
-            </tr>
+
             <tr class="reveal-4">
               <td> mardi </td>
               <td> 8h - 19h </td>
@@ -95,6 +91,7 @@
       </div>
 
     </div>
+</div>
 </div>
 
 

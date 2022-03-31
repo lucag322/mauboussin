@@ -6,6 +6,13 @@ footer{
     bottom: 0; left: 0; right: 0;
 
 }
+.agence{
+    width: 50%;
+    margin-left: auto;
+}
+.banner{
+    padding: 10%;
+}
 .how-section1{
     margin-top:-15%;
     padding: 10% 0%;
@@ -238,8 +245,13 @@ footer{
 
 .card{
     border: 1px solid red!important;
+    width: 100%;
+    margin: 0 auto;
     width: 18rem;
     height: 25rem;
+}
+.colone{
+    margin-bottom: 15px;
 }
  .eleve{
     padding: 10px;
@@ -269,10 +281,32 @@ textarea.ninja-forms-field{
     border: 1px solid red!important;
 }
 .contacte{
-    width: 500px;
+    width:100%;
+    max-width: 500px;
     margin: 0 auto;
     margin-top: 30px;
 }
-#main{
-    height: 90vh!important;
+
+
+
+@media (max-width: 768px){
+    .horaire{
+        display: none!important;
+    }
+    .how-section1 h4{
+       font-size: 16px;
+    }
+    .logo{
+        padding-top: 50%;
+    }
+    .agence{
+        margin-right: auto;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .col-md-3 {
+        flex: 0 0 auto;
+        width: 25%;
+    }
 }
