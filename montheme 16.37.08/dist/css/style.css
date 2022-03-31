@@ -1,0 +1,314 @@
+
+
+
+footer{
+    width: 100%;
+    bottom: 0; left: 0; right: 0;
+
+}
+.agence{
+    width: 50%;
+    margin-left: auto;
+}
+.banner{
+    padding: 10%;
+}
+.how-section1{
+    margin-top:-15%;
+    padding: 10% 0%;
+}
+.how-section1 h4{
+    color: #f30106;
+    font-weight: bold;
+    font-size: 30px;
+}
+.how-section1 .subheading{
+    color: #000;
+    font-size: 20px;
+}
+.how-section1 .row
+{
+    margin-top: 10%;
+}
+.how-img
+{
+    text-align: center;
+}
+.how-img img{
+    width: 40%;
+}
+.banner{
+    height: 100vh;
+    background-image: linear-gradient(90deg, rgba(226,226,226,0.7) 010%, rgba(226,226,226,0.7) 98%), url("https://otto-occasions.com/wp-content/uploads/2021/03/IMG_3303-400x250.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.container_fleche{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+}
+.chevron {
+    position: absolute;
+    width: 4.2rem;
+    height: 0.96rem;
+    opacity: 0;
+    transform: scale(0.3);
+    animation: move-chevron 3s ease-out infinite;
+}
+.chevron:first-child {
+    animation: move-chevron 3s ease-out 1s infinite;
+}
+.chevron:nth-child(2) {
+    animation: move-chevron 3s ease-out 2s infinite;
+}
+.chevron:before, .chevron:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background: #1c1c1cb3;
+}
+.chevron:before {
+    left: 0;
+    transform: skewY(30deg);
+}
+.chevron:after {
+    right: 0;
+    width: 50%;
+    transform: skewY(-30deg);
+}
+@keyframes move-chevron {
+    25% {
+        opacity: 1;
+    }
+    33.3% {
+        opacity: 1;
+        transform: translateY(2.28rem);
+    }
+    66.6% {
+        opacity: 1;
+        transform: translateY(3.12rem);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(4.8rem) scale(0.5);
+    }
+}
+.reveal-loaded .reveal [class*="reveal-"] {
+    opacity: 0!important;
+    transform: translateY(30px)!important;
+    transition: 0s!important;
+}
+
+.reveal-loaded [class*="reveal-"]{
+    transition: 2s cubic-bezier(.5, 0, 0, 1);
+}
+
+.reveal-loaded  .reveal-2 {
+    transition-delay: .2s;
+}
+
+.reveal-loaded .reveal-3 {
+    transition-delay: .3s;
+}
+
+.reveal-loaded .reveal-4 {
+    transition-delay: .4s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .reveal [class*="reveal-"] {
+        opacity: 1!important;
+        transform: translateY(0px)!important;
+    }
+    [class*="reveal-"]{
+        transition-duration: 0s!important;
+        transition-delay: 0s!important;
+    }
+}
+.bgcolor{
+    background-color: #0c0c0c;
+    transition-duration: 1s;
+}
+.bgcolor.scrolled{
+
+    background-color: rgba(84,84,84,0.5)!important;
+    transition-duration: 1s;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: red!important;
+}
+.navbar-light .navbar-brand{
+    color: red!important;
+}
+.formule{
+    width: 100%;
+    border: 1px solid;
+   border-radius: 10px;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    color: black;
+    margin: 0 auto;
+
+}
+.tab{
+    margin-bottom: 5%;
+}
+.coco{
+
+
+}
+.coco:hover{
+    text-decoration: none;
+    color: black;
+}
+.center{
+    margin: 0 auto;
+}
+.radio-tile-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.radio-tile-group .input-container {
+    position: relative;
+    height: 7rem;
+    width: 7rem;
+    margin: 0.5rem;
+}
+
+.buton{
+    position: relative;
+    width: 200px;
+    margin: 0.5rem;
+    border: 1px solid red;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.radio-tile-group .input-container .radio-button {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    cursor: pointer;
+}
+.radio-tile-group .input-container .radio-tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 1rem;
+    transition: transform 300ms ease;
+}
+.radio-tile-group .input-container .icon svg {
+    fill: red;
+    width: 3rem;
+    height: 3rem;
+}
+.radio-tile-group .input-container .radio-tile-label {
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: red;
+}
+.radio-tile-group .input-container .radio-button:checked + .radio-tile {
+    background-color: red;
+    border: 2px solid red;
+    color: white;
+    transform: scale(1.1, 1.1);
+}
+.radio-tile-group .input-container .radio-button:checked + .radio-tile .icon svg {
+    fill: white;
+    background-color: red;
+}
+.radio-tile-group .input-container .radio-button:checked + .radio-tile .radio-tile-label {
+    color: white;
+    background-color: red;
+}
+
+.card{
+    border: 1px solid red!important;
+    width: 100%;
+    margin: 0 auto;
+    width: 18rem;
+    height: 25rem;
+}
+.colone{
+    margin-bottom: 15px;
+}
+ .eleve{
+    padding: 10px;
+     color: black!important;
+     text-decoration: none;
+}
+
+input[type="button"].ninja-forms-field {
+    color: red!important;
+    background-color: transparent!important;
+    border: 1px solid red!important;
+}
+input[type="text"].ninja-forms-field{
+    background-color: transparent!important;
+    border: 1px solid red!important;
+}
+input[type="email"].ninja-forms-field{
+    background-color: transparent!important;
+    border: 1px solid red!important;
+}
+input[type="tel"].ninja-forms-field{
+    background-color: transparent!important;
+    border: 1px solid red!important;
+}
+textarea.ninja-forms-field{
+    background-color: transparent!important;
+    border: 1px solid red!important;
+}
+.contacte{
+    width:100%;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.navbar-toggler-icon{
+    background-color: red!important;
+}
+
+
+@media (max-width: 768px){
+    .horaire{
+        display: none!important;
+    }
+    .how-section1 h4{
+       font-size: 16px;
+    }
+    .logo{
+        padding-top: 50%;
+    }
+    .agence{
+        margin-right: auto;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .col-md-3 {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+}
